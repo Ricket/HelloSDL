@@ -15,6 +15,7 @@
 		9C93E3B313942B700096FAB3 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C93E3B213942B700096FAB3 /* SDL.framework */; };
 		9C93E3B613942C360096FAB3 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C93E3B513942C360096FAB3 /* SDLMain.m */; };
 		9C93E3B913942C790096FAB3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C93E3B713942C790096FAB3 /* main.cpp */; };
+		9C93E3BB13942F620096FAB3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C93E3BA13942F620096FAB3 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		9C93E3B513942C360096FAB3 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLMain.m; path = ../SDLMain.m; sourceTree = "<group>"; };
 		9C93E3B713942C790096FAB3 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9C93E3B813942C790096FAB3 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		9C93E3BA13942F620096FAB3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C93E3BB13942F620096FAB3 /* OpenGL.framework in Frameworks */,
 				9C93E3B313942B700096FAB3 /* SDL.framework in Frameworks */,
 				9C93E39613942B5A0096FAB3 /* Cocoa.framework in Frameworks */,
 			);
@@ -53,6 +56,7 @@
 		9C93E38613942B590096FAB3 = {
 			isa = PBXGroup;
 			children = (
+				9C93E3BA13942F620096FAB3 /* OpenGL.framework */,
 				9C93E39B13942B5A0096FAB3 /* HelloSDL */,
 				9C93E39413942B5A0096FAB3 /* Frameworks */,
 				9C93E39213942B5A0096FAB3 /* Products */,

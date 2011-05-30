@@ -8,6 +8,8 @@
 
 #include <stdlib.h>
 #include <SDL/SDL.h>
+#include <SDL/SDL_opengl.h>
+
 #include "main.h"
 
 #define WIDTH 640
@@ -15,6 +17,24 @@
 #define WINDOW_TITLE "Window Title"
 
 SDL_Surface *screen;
+
+void render() {
+    glClearColor(0,0,0,0);
+    glClear(GL_COLOR_BUFFER_BIT);
+    
+    glBegin(GL_TRIANGLES);
+    {
+        glColor3f(1,0,0);
+        glVertex2f(0,0);
+        
+        glColor3f(0,1,0);
+        glVertex2f(.5,0);
+        
+        glColor3f(0,0,1);
+        glVertex2f(.5,.5);
+    }
+    glEnd();
+}
 
 int SDL_main (int argc, char **argv) {
     // Initialize
@@ -80,7 +100,9 @@ int SDL_main (int argc, char **argv) {
         }
         
         // Draw the screen
-        // render();
+        render();
+        
+        SDL_GL_SwapBuffers();
     }
     
     
