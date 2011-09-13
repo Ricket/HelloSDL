@@ -2,8 +2,8 @@
 //  HelloSDLAppDelegate.m
 //  HelloSDL
 //
-//  Created by Ricky Carter on 5/30/11.
-//  Copyright 2011 Student. All rights reserved.
+//  Created by Richard Carter on 5/30/11.
+//  Copyright 2011 Richard Carter. All rights reserved.
 //
 
 #import "HelloSDLAppDelegate.h"

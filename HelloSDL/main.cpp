@@ -2,8 +2,8 @@
 //  main.cpp
 //  HelloSDL
 //
-//  Created by Ricky Carter on 5/30/11.
-//  Copyright 2011 Student. All rights reserved.
+//  Created by Richard Carter on 5/30/11.
+//  Copyright 2011 Richard Carter. All rights reserved.
 //
 
 #include <stdlib.h>
@@ -14,7 +14,7 @@
 
 #define WIDTH 640
 #define HEIGHT 480
-#define WINDOW_TITLE "Window Title"
+#define WINDOW_TITLE "Hello, SDL!"
 
 SDL_Surface *screen;
 
